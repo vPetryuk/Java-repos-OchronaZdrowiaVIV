@@ -1,10 +1,12 @@
 package pacjent;
 
+import Pracownicy.RodzajSpecjalisty;
+
 import java.util.Date;
 
 public class Skierowanie {
     private boolean zrealizowano;
-    private enum Rodzaj Specjalisty;
-    private Date data waznosci;
+    private Date dataWaznosci;
+    private RodzajSpecjalisty rodzaj;
 
 }

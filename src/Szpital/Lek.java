@@ -1,4 +1,4 @@
-package pacjent;
+package Szpital;
 
 public class Lek {
     private String Nazwa;

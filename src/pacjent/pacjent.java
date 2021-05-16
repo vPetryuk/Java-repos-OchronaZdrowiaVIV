@@ -1,5 +1,7 @@
 package pacjent;
 
+import Szpital.Osoba;
+
 import java.util.List;
 
 public class pacjent extends Osoba {
@@ -8,5 +10,6 @@ public class pacjent extends Osoba {
     private List<Skierowanie> listaskierowan;
     private List<Badanie> listaBadan;
     private List<String> leki;
-    private List<Recepty> recepty;
+    private List<Recepta> recepty;
+    private Stan stan;
 }
